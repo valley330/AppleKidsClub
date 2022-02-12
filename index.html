@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Zen+Kaku+Gothic+New:wght@700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <title>Apple Kids Club</title>
+</head>
+
+<body class="js-scrollbarFix">
+    <!-- 上部親要素 -->
+    <div class="container">
+        <!-- キャッチコピー 640px以上-->
+        <div class="catchPhrase pc">
+            <h1 class="catchPhrase_phrease">GO!ENGLISH</h1> <!-- キャッチコピー -->
+            <p class="catchPhrase_clubName">APPLE　KIDS　CLUB</p> <!-- 教室名 -->
+        </div>
+        <!-- トップ画面（ナビ上） 640px以上-->
+        <div class="keyVisual pc">
+            <ul class="keyVisual_content js_pc">
+                <li><img class="keyVisual_alphabet" src="img/top_A@2x.png"></li>
+                <li><img class="keyVisual_alphabet" src="img/top_M@2x.png"></li>
+                <li><img class="keyVisual_alphabet" src="img/top_S@2x.png"></li>
+                <li><img class="keyVisual_alphabet" src="img/top_O@2x.png"></li>
+            </ul>
+            <ul class="keyVisual_content js_pc">
+                <li><img class="keyVisual_alphabet" src="img/top_B@2x.png"></li>
+                <li><img class="keyVisual_alphabet" src="img/top_G@2x.png"></li>
+                <li><img class="keyVisual_alphabet" src="img/top_R@2x.png"></li>
+                <li><img class="keyVisual_alphabet" src="img/top_E@2x.png"></li>
+            </ul>
+            <ul class="keyVisual_content js_pc">
+                <li><img class="keyVisual_alphabet" src="img/top_C@2x.png"></li>
+                <li><img class="keyVisual_alphabet" src="img/top_F@2x.png"></li>
+                <li><img class="keyVisual_alphabet" src="img/top_P@2x.png"></li>
+                <li><img class="keyVisual_alphabet" src="img/top_H@2x.png"></li>
+            </ul>
+        </div>
+        <!-- ナビ 640以下-->
+        <nav class="menuBar phone phone_bar">
+            <ul class="menuBar_list phone_bar_list">
+                <li class="menuBar_item">
+                    <a class="menuBar_link" href=".initials">
+                        <p class="menuBar_ruby">Initials</p>
+                        <h3 class="menuBar_japanese">かしらもじ</h3>
+                    </a>
+                </li>
+                <li class="menuBar_item">
+                    <a class="menuBar_link" href=".firstSection">
+                        <p class="menuBar_ruby">Learn English</p>
+                        <h3 class="menuBar_japanese">英語を身につける</h3>
+                    </a>
+                </li>
+                <li class="menuBar_item">
+                    <a class="menuBar_link" href=".secondSection">
+                        <p class="menuBar_ruby">Club introduction</p>
+                        <h3 class="menuBar_japanese">CLUB紹介</h3>
+                    </a>
+                </li>
+                <li class="menuBar_item">
+                    <a class="menuBar_link" href=".thirdSection">
+                        <p class="menuBar_ruby">Staff introduction</p>
+                        <h3 class="menuBar_japanese">スタッフ紹介</h3>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- トップ画面（ナビ上） 640px以下-->
+        <div class="keyVisual phone">
+            <ul class="keyVisual_content phone_js">
+                <!-- アルファベット 4枚-->
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_A@2x.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_M@2x.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_S@2x.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_O@2x.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_A@2x.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_M@2x.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_S@2x.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_O@2x.png" alt="">
+                    </button>
+                </li>
+            </ul>
+            <h2 class="catchPhrase_phrease phone">GO!ENGLISH</h2>
+            <ul class="keyVisual_content phone_js_rtl" dir="rtl">
+                <!-- アルファベット 4枚-->
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_B@2x.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_G@2x.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_R@2x.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_E@2x.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_B@2x.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_G@2x.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_R@2x.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_E@2x.png" alt="">
+                    </button>
+                </li>
+            </ul>
+            <h2 class="catchPhrase_clubName_1 phone">APPLE　KIDS</h2>
+            <ul class="keyVisual_content phone_js">
+                <!-- アルファベット 4枚-->
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_C@2x.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_F@2x.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_P@2x.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_H@2x.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_C@2x.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_F@2x.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_P@2x.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="initials_alphabet" type="button">
+                        <img class="alphabet_img size_w160" src="img/top_H@2x.png" alt="">
+                    </button>
+                </li>
+            </ul>
+            <h2 class="catchPhrase_clubName_2 phone">CLUB</h2>
+        </div>
+        <!-- ナビ -->
+        <nav class="menuBar pc sticky">
+            <ul class="menuBar_list">
+                <li class="menuBar_item">
+                    <a class="menuBar_link" href=".initials">
+                        <p class="menuBar_ruby">Initials</p>
+                        <h3 class="menuBar_japanese">かしらもじ</h3>
+                    </a>
+                </li>
+                <li class="menuBar_item">
+                    <a class="menuBar_link" href=".firstSection">
+                        <p class="menuBar_ruby">Learn English</p>
+                        <h3 class="menuBar_japanese">英語を身につける</h3>
+                    </a>
+                </li>
+                <li class="menuBar_item">
+                    <a class="menuBar_link" href=".secondSection">
+                        <p class="menuBar_ruby">Club introduction</p>
+                        <h3 class="menuBar_japanese">CLUB紹介</h3>
+                    </a>
+                </li>
+                <li class="menuBar_item">
+                    <a class="menuBar_link" href=".thirdSection">
+                        <p class="menuBar_ruby">Staff introduction</p>
+                        <h3 class="menuBar_japanese">スタッフ紹介</h3>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <main class="content">
+        <!-- かしらもじ -->
+        <div class="initials">
+            <div class="inisials_box">
+                <!-- なにがでるかな？ -->
+                <p class="initials_lead">
+                    <img class="lead_img size_w160" src="img/what_yellow@2x.png">
+                </p>
+                <!-- アルファベット 2枚-->
+                <button class="initials_alphabet" type="button">
+                    <img class="alphabet_img size_w160" src="img/top_A@2x.png" alt="">
+                </button>
+                <button class="initials_alphabet" type="button">
+                    <img class="alphabet_img size_w160" src="img/top_M@2x.png" alt="">
+                </button>
+                <!-- かしらもじ verくだもの -->
+                <p class="initials_ttl">
+                    <img class="ttl_img" src="img/initial_fruits@2x.png" alt="">
+                </p>
+                <!-- アルファベット 2枚-->
+                <button class="initials_alphabet" type="button">
+                    <img class="alphabet_img size_w160" src="img/top_S@2x.png" alt="">
+                </button>
+                <button class="initials_alphabet" type="button">
+                    <img class="alphabet_img size_w160" src="img/top_O@2x.png" alt="">
+                </button>
+                <!--？？？-->
+                <p class="initials_mark">
+                    <img class="mark_img size_w160" src="img/quetion@2x.png" alt="">
+                </p>
+            </div>
+            <div class="inisials_box">
+                <!-- なにがでるかな？ -->
+                <p class="initials_lead">
+                    <img class="lead_img size_w160" src="img/what_pink@2x.png">
+                </p>
+                <!-- アルファベット 2枚-->
+                <button class="initials_alphabet" type="button">
+                    <img class="alphabet_img size_w160" src="img/top_B@2x.png" alt="">
+                </button>
+                <button class="initials_alphabet" type="button">
+                    <img class="alphabet_img size_w160" src="img/top_G@2x.png" alt="">
+                </button>
+                <!-- かしらもじ verどうぶつ -->
+                <p class="initials_ttl">
+                    <img class="ttl_img" src="img/initial_animal@2x.png" alt="">
+                </p>
+                <!-- アルファベット 2枚-->
+                <button class="initials_alphabet" type="button">
+                    <img class="alphabet_img size_w160" src="img/top_R@2x.png" alt="">
+                </button>
+                <button class="initials_alphabet" type="button">
+                    <img class="alphabet_img size_w160" src="img/top_E@2x.png" alt="">
+                </button>
+                <!--？？？-->
+                <p class="initials_mark">
+                    <img class="mark_img size_w160" src="img/quetion_pink@2x.png" alt="">
+                </p>
+            </div>
+            <div class="inisials_box">
+                <!-- なにがでるかな？ -->
+                <p class="initials_lead">
+                    <img class="lead_img size_w160" src="img/what_blue@2x.png">
+                </p>
+                <!-- アルファベット 2枚-->
+                <button class="initials_alphabet" type="button">
+                    <img class="alphabet_img size_w160" src="img/top_C@2x.png" alt="">
+                </button>
+                <button class="initials_alphabet" type="button">
+                    <img class="alphabet_img size_w160" src="img/top_F@2x.png" alt="">
+                </button>
+                <!-- かしらもじ verのりもの -->
+                <p class="initials_ttl">
+                    <img class="ttl_img" src="img/initial_vehicle@2x.png" alt="">
+                </p>
+                <!-- アルファベット 2枚-->
+                <button class="initials_alphabet" type="button">
+                    <img class="alphabet_img size_w160" src="img/top_P@2x.png" alt="">
+                </button>
+                <button class="initials_alphabet" type="button">
+                    <img class="alphabet_img size_w160" src="img/top_H@2x.png" alt="">
+                </button>
+                <!--？？？-->
+                <p class="initials_mark">
+                    <img class="mark_img size_w160" src="img/quetion_blue@2x.png" alt="">
+                </p>
+            </div>
+        </div>
+        <!-- 英語を身につける -->
+        <section class="firstSection">
+            <h2 class="firstSection_title main_title">英語を身につける</h2>
+            <p class="firstSection_subtitle sub_title">Learn English</p>
+            <p class="firstSection_word">３つのポイントを意識してみましょう！</p>
+            <!-- ポイント -->
+            <ul class="learnPoint_list pc">
+                <!-- ポイント01 -->
+                <li class="learnPoint_item pc">
+                    <h3 class="point pc">
+                        <img class="point_img pc" src="img/point1@2x.png" alt="">
+                    </h3>
+                    <div class="pointImage pc">
+                        <img class="pointImage_img pc" src="img/point1_image@2x.png" alt="">
+                    </div>
+                    <p class="point_sentence pc">
+                        幼児期から<br>
+                        英語に触れられる<br>
+                        環境を作る
+                    </p>
+                </li>
+                <!-- ポイント02 -->
+                <li class="learnPoint_item pc">
+                    <h3 class="point pc">
+                        <img class="point_img pc" src="img/point2@2x.png" alt="">
+                    </h3>
+                    <div class="pointImage pc">
+                        <img class="pointImage_img pc" src="img/point2_image@2x.png" alt="">
+                    </div>
+                    <p class="point_sentence pc">
+                        英語で<br>
+                        コミュニケーション<br>
+                        できる相手を作る
+                    </p>
+                </li>
+                <!-- ポイント03 -->
+                <li class="learnPoint_item pc">
+                    <h3 class="point pc">
+                        <img class="point_img pc" src="img/point3@2x.png" alt="">
+                    </h3>
+                    <div class="pointImage pc">
+                        <img class="pointImage_img pc" src="img/point3_image@2x.png" alt="">
+                    </div>
+                    <p class="point_sentence point_03_p pc">
+                        好きなテーマから<br>
+                        学ばせる<br>
+                        　　　　
+                    </p>
+                </li>
+            </ul>
+            <!-- ポイント 640px以下-->
+            <ul class="learnPoint_list_phone phone">
+                <!-- ポイント01 640px以下-->
+                <li class="learnPoint_item_phone phone">
+                    <div class="pointImage phone">
+                        <img class="pointImage_img phone" src="img/point1_image@2x.png" alt="">
+                    </div>
+                    <div class="point_and_sentence">
+                        <h3 class="point_phone phone">
+                            <img class="point_img_phone phone" src="img/point1@2x.png" alt="">
+                        </h3>
+                        <p class="point_sentence_phone phone">
+                            幼児期から<br>
+                            英語に触れられる<br>
+                            環境を作る
+                        </p>
+                    </div>
+                </li>
+                <!-- ポイント02 640px以下-->
+                <li class="learnPoint_item_phone inversion phone">
+                    <div class="pointImage phone">
+                        <img class="pointImage_img phone" src="img/point2_image@2x.png" alt="">
+                    </div>
+                    <div class="point_and_sentence">
+                        <h3 class="point_phone phone">
+                            <img class="point_img_phone phone" src="img/point2@2x.png" alt="">
+                        </h3>
+                        <p class="point_sentence_phone phone">
+                            幼児期から<br>
+                            英語に触れられる<br>
+                            環境を作る
+                        </p>
+                    </div>
+                </li>
+                <!-- ポイント03 640px以下-->
+                <li class="learnPoint_item_phone phone">
+                    <div class="pointImage phone">
+                        <img class="pointImage_img phone" src="img/point3_image@2x.png" alt="">
+                    </div>
+                    <div class="point_and_sentence">
+                        <h3 class="point_phone phone">
+                            <img class="point_img_phone phone" src="img/point3@2x.png" alt="">
+                        </h3>
+                        <p class="point_sentence_phone phone">
+                            好きなテーマから<br>
+                            学ばせる<br>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!-- CLAB紹介 -->
+        <section class="secondSection">
+            <h2 class="secondSection_title main_title">CLUB紹介</h2>
+            <p class="secondSection_subtitle sub_title">Club introduction</p>
+            <!-- 5つの特徴 title -->
+            <h3 class="feature">
+                <img src="img/5_features@2x.png" alt="">
+            </h3>
+            <!-- 特徴内容 -->
+            <ol class="feature_list pc">
+                <div>
+                    <li class="feature_item pc">
+                        <p class="feature_sentence pc">
+                            教室は最大３人の少人数制！
+                        </p>
+                    </li>
+                    <li class="feature_item pc">
+                        <p class="feature_sentence pc">
+                            英語の歌やリズム遊びなどを通して自然に身につくよう工夫されたカリキュラム
+                        </p>
+                    </li>
+                    <li class="feature_item pc">
+                        <p class="feature_sentence pc">
+                            幼児心理学、発達心理学をベースにした,思わず見て聴いて触ってしまう教材
+                        </p>
+                    </li>
+                </div>
+                <div>
+                    <li class="feature_item pc">
+                        <p class="feature_sentence pc">
+                            お子様の日々のレッスン姿、成長が確認できるレッスン参観を実施！時には、ご一緒にレッスンも行います！
+                        </p>
+                    </li>
+                    <li class="feature_item pc">
+                        <p class="feature_sentence pc">
+                            定期的に他の教室の子と触れ合うことができるイベントを開催！外国の文化に触れながら、普段お話ししないお友達と交流を楽しめます！
+                        </p>
+                    </li>
+                </div>
+            </ol>
+            <!-- 特徴内容 640px以下-->
+            <ol class="feature_list_phone phone">
+                <li class="feature_item">
+                    <p class="feature_sentence">
+                        教室は最大３人の少人数制！
+                    </p>
+                </li>
+                <li class="feature_item">
+                    <p class="feature_sentence">
+                        英語の歌やリズム遊びなどを通して自然に身につくよう工夫されたカリキュラム
+                    </p>
+                </li>
+                <li class="feature_item">
+                    <p class="feature_sentence">
+                        幼児心理学、発達心理学をベースにした,思わず見て聴いて触ってしまう教材
+                    </p>
+                </li>
+                <li class="feature_item">
+                    <p class="feature_sentence">
+                        お子様の日々のレッスン姿、成長が確認できるレッスン参観を実施！時には、ご一緒にレッスンも行います！
+                    </p>
+                </li>
+                <li class="feature_item">
+                    <p class="feature_sentence">
+                        定期的に他の教室の子と触れ合うことができるイベントを開催！外国の文化に触れながら、普段お話ししないお友達と交流を楽しめます！
+                    </p>
+                </li>
+            </ol>
+            <!-- 勧誘文章 -->
+            <div class="solicitation pc">
+                <p class="solicitation_text_1 pc">
+                    APPLE KIDS CLUBでは、英語は学ぶものではなく、身につけるものと考えています。<br>
+                    頑張って学習するものでなく、レッスンしていたら自然と身についているものなのです。
+                </p>
+                <p class="solicitation_text_2 pc">
+                    英語を楽しみながらしっかりと身につけていきましょう！
+                </p>
+            </div>
+            <!-- 勧誘文章 640px -->
+            <div class="solicitation phone">
+                <p class="solicitation_text_1 phone">
+                    APPLE KIDS CLUBでは、英語は学ぶものではなく、身につけるものと考えています。<br>
+                    頑張って学習するものでなく、レッスンしていたら自然と身についているものなのです。
+                </p>
+                <p class="solicitation_text_2 phone">
+                    英語を楽しみながらしっかりと身につけていきましょう！
+                </p>
+            </div>
+        </section>
+        <!-- スタッフ紹介 -->
+        <section class="thirdSection">
+            <h2 class="thirdSection_title main_title">スタッフ紹介</h2>
+            <p class="thirdSection_subtitle sub_title">Staff introduction</p>
+            <!-- スタッフリスト -->
+            <ul class="staff_list">
+                <!-- スタッフ01 -->
+                <li class="staff_member">
+                    <a class="staff_link" href="">
+                        <div class="staff_face">
+                            <img class="staff_face_img" src="img/youngman_27.png" alt="">
+                        </div>
+                        <p class="staff_name">田中太郎</p>
+                        <p class="staff_sentence">年齢：30歳<br>趣味：登山</p>
+                    </a>
+                </li>
+                <!-- スタッフ02 -->
+                <li class="staff_member">
+                    <a class="staff_link" href="">
+                        <div class="staff_face">
+                            <img class="staff_face_img" src="img/youngman_35.png" alt="">
+                        </div>
+                        <p class="staff_name">木村太郎</p>
+                        <p class="staff_sentence">スタッフ紹介文</p>
+                    </a>
+                </li>
+                <!-- スタッフ03 -->
+                <li class="staff_member">
+                    <a class="staff_link" href="">
+                        <div class="staff_face">
+                            <img class="staff_face_img" src="img/youngwoman_43.png" alt="">
+                        </div>
+                        <p class="staff_name">木村花子</p>
+                        <p class="staff_sentence">スタッフ紹介文</p>
+                    </a>
+                </li>
+                <!-- スタッフ04 -->
+                <li class="staff_member">
+                    <a class="staff_link" href="">
+                        <div class="staff_face">
+                            <img class="staff_face_img" src="img/youngwoman_48.png" alt="">
+                        </div>
+                        <p class="staff_name">鈴木花子</p>
+                        <p class="staff_sentence">スタッフ紹介文</p>
+                    </a>
+                </li>
+                <!-- スタッフ05 -->
+                <li class="staff_member">
+                    <a class="staff_link" href="">
+                        <div class="staff_face">
+                            <img class="staff_face_img" src="img/youngwoman_48.png" alt="">
+                        </div>
+                        <p class="staff_name">鈴木音子</p>
+                        <p class="staff_sentence">スタッフ紹介文</p>
+                    </a>
+                </li>
+                <!-- スタッフ06 -->
+                <li class="staff_member">
+                    <a class="staff_link" href="">
+                        <div class="staff_face">
+                            <img class="staff_face_img" src="img/youngman_27.png" alt="">
+                        </div>
+                        <p class="staff_name">池上太一</p>
+                        <p class="staff_sentence">スタッフ紹介文</p>
+                    </a>
+                </li>
+                <!-- スタッフ07 -->
+                <li class="staff_member">
+                    <a class="staff_link" href="">
+                        <div class="staff_face">
+                            <img class="staff_face_img" src="img/megane_hikaru_man.png" alt="">
+                        </div>
+                        <p class="staff_name">竹中太一</p>
+                        <p class="staff_sentence">スタッフ紹介文</p>
+                    </a>
+                </li>
+                <!-- スタッフ08 -->
+                <li class="staff_member">
+                    <a class="staff_link" href="">
+                        <div class="staff_face">
+                            <img class="staff_face_img" src="img/megane_hikaru_woman.png" alt="">
+                        </div>
+                        <p class="staff_name">竹中由紀子</p>
+                        <p class="staff_sentence">スタッフ紹介文</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <!-- フッター -->
+    <footer class="footer">
+        <div>
+            <p class="footer_text">SHARE</p>
+            <!-- SNSアイコン -->
+            <ul class="footer_list">
+                <li class="footer_icon">
+                    <a class="footer_icon_link" href="#">
+                        <img class="facebook footer_icon_img" src="img/f_logo_RGB-Grey_58.png" alt="">
+                    </a>
+                </li>
+                <li class="footer_icon">
+                    <a class="footer_icon_link" href="#">
+                        <img class="insta footer_icon_img" src="img/glyph-logo_May2016.png" alt="">
+                    </a>
+                </li>
+                <li class="footer_icon">
+                    <a class="footer_icon_link" href="#">
+                        <img class="twitter footer_icon_img" src="img/twitter@2x.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- りんごアイコン -->
+        <p class="footer_logo">
+            <img class="footer_logo_icon" src="img/footer_logo@2x.png" alt="">
+        </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        // PC画面のtop画面スライd
+        $('.js_pc').slick({
+            fade: false, //切り替えをフェードで行う。初期値はfalse。
+            autoplay: true, //自動的に動き出すか。初期値はfalse。
+            autoplaySpeed: 3000, //次のスライドに切り替わる待ち時間
+            speed: 1000, //スライドの動きのスピード。初期値は300。
+            infinite: true, //スライドをループさせるかどうか。初期値はtrue。
+            slidesToShow: 1, //スライドを画面に3枚見せる
+            slidesToScroll: 1, //1回のスクロールで3枚の写真を移動して見せる
+            arrows: false, //左右の矢印あり
+            // prevArrow: '<div class="slick-prev"></div>', //矢印部分PreviewのHTMLを変更
+            // nextArrow: '<div class="slick-next"></div>', //矢印部分NextのHTMLを変更
+            dots: false, //下部ドットナビゲーションの表示
+            pauseOnFocus: false, //フォーカスで一時停止を無効
+            pauseOnHover: false, //マウスホバーで一時停止を無効
+            pauseOnDotsHover: false, //ドットナビゲーションをマウスホバーで一時停止を無効
+        });
+        // スマホ画面のトップ画面スライド
+        $('.phone_js').slick({
+            arrows: false, //左右の矢印はなし
+            autoplay: true, //自動的に動き出すか。初期値はfalse。
+            autoplaySpeed: 0, //自動的に動き出す待ち時間。初期値は3000ですが今回の見せ方では0
+            speed: 6900, //スライドのスピード。初期値は300。
+            infinite: true, //スライドをループさせるかどうか。初期値はtrue。
+            pauseOnHover: false, //オンマウスでスライドを一時停止させるかどうか。初期値はtrue。
+            pauseOnFocus: false, //フォーカスした際にスライドを一時停止させるかどうか。初期値はtrue。
+            cssEase: 'linear', //動き方。初期値はeaseですが、スムースな動きで見せたいのでlinear
+            slidesToShow: 4, //スライドを画面に4枚見せる
+            slidesToScroll: 4, //1回のスライドで動かす要素数
+        });
+        // スマホ画面のトップ画面スライド（逆走）
+        $('.phone_js_rtl').slick({
+            arrows: false, //左右の矢印はなし
+            autoplay: true, //自動的に動き出すか。初期値はfalse。
+            autoplaySpeed: 0, //自動的に動き出す待ち時間。初期値は3000ですが今回の見せ方では0
+            speed: 6900, //スライドのスピード。初期値は300。
+            infinite: true, //スライドをループさせるかどうか。初期値はtrue。
+            pauseOnHover: false, //オンマウスでスライドを一時停止させるかどうか。初期値はtrue。
+            pauseOnFocus: false, //フォーカスした際にスライドを一時停止させるかどうか。初期値はtrue。
+            cssEase: 'linear', //動き方。初期値はeaseですが、スムースな動きで見せたいのでlinear
+            slidesToShow: 4, //スライドを画面に4枚見せる
+            slidesToScroll: 4, //1回のスライドで動かす要素数
+            rtl: true,
+        });
+        // スクロール700pxまでいったらナビ固定（PC画面のみ）
+        $(document).ready(function () {
+            $('nav').removeClass('sticky');
+        });
+        $(function () {
+            const navPosi = 700;
+            console.log(navPosi);
+            $(window).on('scroll', function () {
+                const scr = $(window).scrollTop();
+                console.log(scr);
+                if (scr > navPosi) {
+                    $('nav').addClass('sticky');
+                } else {
+                    $('nav').removeClass('sticky');
+                }
+            });
+        });
+
+        $('.menuBar_list a[href*="."]').click(function () { //全てのページ内リンクに適用させたい場合はa[href*="#"]のみでもOK
+            var elmHash = $(this).attr('href'); //ページ内リンクのHTMLタグhrefから、リンクされているエリアidの値を取得
+            var pos = $(elmHash).offset().top; //idの上部の距離を取得
+            $('body,html').animate({
+                scrollTop: pos
+            }, 500); //取得した位置にスクロール。500の数値が大きくなるほどゆっくりスクロール
+            return false;
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,685 @@
+html,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+
+    background-color: #F8F7F3;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: visible;
+    cursor: pointer;
+}
+
+
+/* --親要素------------------------- */
+
+.container {
+    position: relative;
+}
+
+.container,
+.content,
+.footer {
+    width: 1440px;
+    margin: 0 auto;
+
+    background-color: #F8F7F3;
+}
+
+/* --キャッチコピー------------------------- */
+.catchPhrase {
+    width: 100%;
+
+    position: absolute;
+    top: -30px;
+    z-index: 2;
+
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.catchPhrase h1 {
+    margin-bottom: -20px;
+    text-align: center;
+
+    font-size: 120px;
+    font-weight: bold;
+    letter-spacing: 50px;
+    color: #fff;
+}
+
+.catchPhrase p {
+    width: 100%;
+    text-align: center;
+
+    font-size: 65px;
+    font-weight: bold;
+    letter-spacing: 45px;
+    color: #fff;
+}
+
+/* --トップ画面------------------------- */
+
+.keyVisual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -32px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.keyVisual_content {
+    width: 500px;
+    list-style: none;
+}
+
+/* .keyVisual div {
+    width: 500px;
+    list-style: none;
+} */
+
+.keyVisual img {
+    width: 100%;
+}
+
+/* --ナビ------------------------- */
+.menuBar {
+    background-color: #fff;
+    font-family: "ヒラギノ角ゴ ProN", sans-serif;
+}
+
+.menuBar ul {
+    height: 90px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style: none;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+/* .menuBar li {
+    height: auto;
+} */
+
+.menuBar p,
+.menuBar h3 {
+    text-align: center;
+    color: #4E4B4C;
+}
+
+.menuBar p {
+    font-size: 13px;
+}
+
+.menuBar h3 {
+    font-size: 16px;
+}
+
+.sticky {
+    /* jQuery追加分 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+/* --かしらもじ------------------------- */
+.initials {
+    width: 100%;
+    margin-bottom: 40px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.inisials_box {
+    width: 480px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.initials_lead,
+.initials_mark {
+    width: 160px;
+    height: 208px;
+    overflow: hidden;
+}
+
+.initials_ttl {
+    height: 170px;
+}
+
+.size_w160 {
+    width: 160px;
+    height: 220px;
+}
+
+.ttl_img {
+    width: 480px;
+}
+
+.initials button {
+    border: none;
+    height: 208px;
+    overflow: hidden;
+}
+
+/* --sectionクラス------------------------- */
+.firstSection,
+.secondSection,
+.thirdSection {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.firstSection,
+.secondSection {
+    margin-bottom: 40px;
+}
+
+.thirdSection {
+    padding-bottom: 40px;
+    background-color: #fff;
+}
+
+/* --タイトル------------------------- */
+.main_title,
+.sub_title {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.sub_title {
+    margin-bottom: 20px;
+}
+
+/* --英語を身につける------------------------- */
+
+.firstSection_word {
+    margin-bottom: 20px;
+
+    font-family: "ヒラギノ角ゴ ProN", sans-serif;
+}
+
+.learnPoint_list {
+    display: flex;
+    justify-content: space-around;
+
+    list-style: none;
+}
+
+.learnPoint_item {
+    width: 20%;
+    height: 330px;
+    position: relative;
+}
+
+.point {
+    position: absolute;
+    left: 0;
+}
+
+.learnPoint_item div {
+    position: absolute;
+    top: 70px;
+    right: 25px;
+}
+
+.learnPoint_item p {
+    position: absolute;
+    right: -30px;
+    bottom: 30px;
+    text-align: left;
+
+    font-family: "ヒラギノ角ゴ ProN", sans-serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.point img {
+    width: 140px;
+}
+
+.pointImage img {
+    width: 230px;
+}
+
+/* --CLAB紹介------------------------- */
+.feature {
+    margin-bottom: 50px;
+}
+
+.solicitation {
+    letter-spacing: 3px;
+}
+
+.feature_list {
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 25px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.solicitation_text_1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+    font-size: 13px;
+}
+
+.solicitation_text_2 {
+    padding-bottom: 30px;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.feature_list p {
+    width: 300px;
+    text-align: justify;
+
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.secondSection li {
+    margin-bottom: 20px;
+}
+
+.solicitation_text_1,
+.solicitation_text_2 {
+    width: 700px;
+    margin: 0 auto;
+
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    background-color: #fff;
+}
+
+/* --スタッフ紹介------------------------- */
+.thirdSection_subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.staff_list {
+    width: 50%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    list-style: none;
+}
+
+.staff_name {
+    margin-bottom: 5px;
+}
+
+.staff_list li {
+    width: 130px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.thirdSection h2 {
+    text-align: center;
+}
+
+.staff_member img {
+    width: 130px;
+    height: 130px;
+    border: 1px solid #4E4B4C;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.staff_member img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.staff_member p {
+    text-align: center;
+
+    color: #4E4B4C;
+}
+
+/* --フッター------------------------- */
+
+.footer {
+    height: 310px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer p {
+    position: relative;
+    margin-bottom: 15px;
+    text-align: center;
+
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: bold;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+/* .footer_icon {
+    background-color: #fff;
+} */
+
+.insta,
+.twitter {
+    margin-left: 5px;
+}
+
+footer img {
+    width: 50px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.footer_logo_icon {
+    width: 70px;
+    height: auto;
+}
+
+/* --SHAREのborder------------------------- */
+.footer_text::before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 15px;
+
+    position: absolute;
+    top: 5px;
+    transform: skew(30deg, 0deg);
+    left: 25px;
+
+    background-color: #4E4B4C;
+}
+
+.footer_text::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 15px;
+
+    position: absolute;
+    top: 5px;
+    transform: skew(-30deg, 0deg);
+    right: 25px;
+
+    background-color: #4E4B4C;
+}
+
+/* --レスポンシブ------------------------- */
+@media screen and (min-width:1280px) {
+    .phone {
+        display: none;
+    }
+}
+
+/* width:1280px; */
+
+/* max-width：--px以下は{}状態になる */
+@media screen and (max-width:1280px) {
+
+    .container,
+    .content,
+    .footer {
+        width: 1280px;
+        margin: 0 auto;
+
+        background-color: #F8F7F3;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    /* --キャッチコピー------------------------- */
+    .catchPhrase h1 {
+        margin-bottom: -20px;
+        text-align: center;
+
+        font-size: 90px;
+        font-weight: bold;
+        letter-spacing: 50px;
+        color: #fff;
+    }
+
+    .catchPhrase p {
+        width: 100%;
+        text-align: center;
+
+        font-size: 45px;
+        font-weight: bold;
+        letter-spacing: 45px;
+        color: #fff;
+    }
+
+    /* --かしらもじ------------------------- */
+    .initials {
+        width: 100%;
+        margin-bottom: 40px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .inisials_box {
+        width: 420px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .initials_lead,
+    .initials_mark {
+        width: 140px;
+        height: 185px;
+        overflow: hidden;
+    }
+
+    .initials_ttl {
+        height: 150px;
+    }
+
+    .size_w160 {
+        width: 140px;
+        height: 195px;
+    }
+
+    .ttl_img {
+        width: 420px;
+    }
+
+    .initials button {
+        border: none;
+        height: 185px;
+        overflow: hidden;
+    }
+
+}
+
+/* width:640px; */
+@media screen and (max-width:640px) {
+
+    .container,
+    .content,
+    .footer {
+        width: 100%;
+        margin: 0 auto;
+
+        background-color: #F8F7F3;
+    }
+
+    /* --トップ画面------------------------- */
+    .pc {
+        display: none;
+    }
+
+    .phone {
+        display: block;
+    }
+
+    .phone div {
+        width: auto;
+    }
+
+    /* --キャッチコピー------------------------- */
+    .keyVisual_content {
+        width: 100%;
+        position: relative;
+    }
+
+    .phone h2 {
+        font-size: 35px;
+        letter-spacing: 3px;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .catchPhrase_phrease {
+        position: absolute;
+        top: 0;
+    }
+
+    .catchPhrase_clubName_1 {
+        position: absolute;
+        top: 34%;
+        right: 0;
+    }
+
+
+    .catchPhrase_clubName_2 {
+        position: absolute;
+        top: 68%;
+    }
+
+    /* --メニューバー------------------------- */
+
+    .phone_bar {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+    }
+
+    .menuBar ul {
+        height: 60px;
+        margin: 0 15px;
+        /* margin-left: 120px;
+        margin-right: 120px; */
+    }
+
+    .menuBar h3 {
+        font-size: 10%;
+    }
+
+    .menuBar p {
+        font-size: 9%;
+    }
+
+    /* --かしらもじ------------------------- */
+    .initials {
+        display: none;
+    }
+
+    .keyVisual {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .keyVisual_content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .keyVisual img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* --英語を身につける------------------------- */
+    .learnPoint_list_phone {
+        width: 100%;
+        padding: 0 10%;
+    }
+
+    .learnPoint_item_phone {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10px;
+
+        font-family: "ヒラギノ角ゴ ProN", sans-serif;
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+
+    .inversion {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row-reverse;
+    }
+
+    .point_phone {
+        margin-bottom: 10px;
+    }
+
+    .feature_list_phone {
+        width: 350px;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 25px;
+
+        list-style-position: inside;
+    }
+
+    .solicitation_text_1,
+    .solicitation_text_2 {
+        width: 350px;
+    }
+
+    .feature_item {
+        font-size: 12px;
+    }
+
+    /* --スタッフ紹介------------------------- */
+    .staff_list {
+        width: 100%;
+    }
+}
